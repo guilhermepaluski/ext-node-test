@@ -11,4 +11,4 @@ jobs:
       - name: Executa echo
         run: echo hello world!
       - name: Executa pwd
-        run: echo pwd
+        run: echo pw
