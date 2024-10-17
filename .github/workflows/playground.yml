@@ -26,7 +26,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    need: [windows-latest, linux_job]
+    needs: [windows-latest, linux_job]
 
     steps:
         - name: Final job
